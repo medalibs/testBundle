@@ -13,6 +13,7 @@
         "MIT"
     ],
     "require" : {
+        "mas/testbundle" : "dev-master"
     },
     "autoload" : {
         "psr-0" : {
@@ -21,6 +22,8 @@
     },
     "target-dir" : "Mas/TestBundle",
     "repositories" : [{
+        "type" : "vcs",
+        "url" : "https://github.com/medalibs/testBundle.git"
     }],
     "extra" : {
     "branch-alias" : {
