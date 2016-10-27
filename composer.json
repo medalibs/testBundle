@@ -1,5 +1,5 @@
 {
-    "name" : "mas/testbundle",
+    "name" : "medalibs/testbundle",
     "description" : "A demo bundle",
     "type" : "symfony-bundle",
     "authors" : [{
@@ -13,7 +13,7 @@
         "MIT"
     ],
     "require" : {
-        "mas/testbundle" : "dev-master"
+        "medalibs/testbundle" : "dev-master"
     },
     "autoload" : {
         "psr-0" : {
@@ -27,7 +27,7 @@
     }],
     "extra" : {
     "branch-alias" : {
-            "dev-master" : "1.0"
+            "dev-master" : "1"
         }
     }
 }
