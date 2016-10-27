@@ -1,0 +1,30 @@
+{
+    "name" : "mas/testbundle",
+    "description" : "A demo bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "test",
+        "email" : "ben.slama.mohamed.ali@gmail.com"
+    }],
+    "keywords" : [
+        "demo bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Mas\\TestBundle" : ""
+        }
+    },
+    "target-dir" : "Mas/TestBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "1.0"
+        }
+    }
+}
